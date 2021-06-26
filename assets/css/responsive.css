@@ -1,0 +1,181 @@
+/* ==== Responsive CSS File ==== */
+
+@media only screen and (max-width: 320px) and (max-width:480px) {}
+
+@media only screen and (max-width: 480px) {
+    .new_startup_img img {
+        width: 250px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar .fa-bars,
+    .navbar button {
+        color: #FFF !important;
+        border: none !important;
+        background-color: transparent !important;
+    }
+    .navbar-fixed .fa-bars,
+    .navbar-fixed button {
+        color: #051441 !important;
+        border: none !important;
+    }
+    .navbar ul li a {
+        margin-top: 20px;
+    }
+    .navbar ul .active a,
+    .navbar-fixed ul .active a {
+        color: #6D63FB !important;
+    }
+    .navbar ul li a:hover,
+    .navbar-fixed ul li a:hover {
+        color: #6D63FB !important;
+    }
+    .navbar ul li a:hover:before {
+        visibility: hidden;
+    }
+    .navbar ul .active a::before {
+        visibility: hidden;
+    }
+    .navbar-fixed ul li a:hover:before {
+        visibility: hidden;
+    }
+    .navbar-fixed ul .active a::before {
+        visibility: hidden;
+    }
+    .h_security_banner_area {
+        /* align-items: center !important;
+        justify-content: center !important;
+        display: flex !important; */
+        height: 1000px !important;
+        padding: 40px 0px !important;
+    }
+    .security_banner_content h2 {
+        font-size: 38px;
+        margin-top: 50px !important;
+        line-height: 45px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 18px;
+        padding: 0px !important;
+    }
+    .new_startup_img img {
+        width: 340px !important;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .security_banner_content .download-btn {
+        margin: 20px 0px;
+    }
+    .security_banner_content .action_btn {
+        display: block !important;
+    }
+    .security_banner_content .w_btn {
+        display: block !important;
+        margin-top: 10px !important;
+    }
+    .security_banner_content .w_btn {
+        margin-left: 6px !important;
+        text-align: left;
+    }
+    .popular-simple-inner .popular-simple-item {
+        width: 100%;
+        margin: 0px 10px 10px !important;
+        display: inline-block
+    }
+    .popular-simple-inner .popular-simple-item .item {
+        width: 100%;
+        margin: 20px auto 0px auto !important;
+    }
+    .popular-simple-inner {
+        display: block;
+        margin: auto !important;
+    }
+    .popular-simple-about-content {
+        margin-top: 50px !important;
+        margin-bottom: 20px !important;
+    }
+    .popular-simple-about-img img {
+        width: 380px !important;
+    }
+    .security-img {
+        display: none !important;
+    }
+    .digital-protection .protection-item {
+        display: block !important;
+    }
+    .digital-protection .protection-item img {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .popular-simple-about-img img {
+        width: 300px !important;
+    }
+    /* ==== all section heading  ==== */
+    .section-heading h2 {
+        font-size: 28px !important;
+    }
+    .footer-img-secton {
+        padding-top: 30px;
+    }
+    .space-sec {
+        padding: 80px 0px;
+    }
+    .wave_shap {
+        width: 100%;
+        position: absolute;
+        height: 240px;
+        left: 0;
+        bottom: 0;
+        z-index: -2;
+    }
+    .leaf_left {
+        width: 120px !important;
+        left: 0;
+        bottom: 0;
+        position: absolute;
+        z-index: -1;
+    }
+    .leaf_right {
+        width: 120px !important;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        z-index: -1;
+    }
+    .pos_women {
+        width: 40px;
+        left: 50px !important;
+        bottom: 0;
+        position: absolute;
+    }
+    .pos_man {
+        width: 40px;
+        right: 50px !important;
+        bottom: 0;
+        position: absolute;
+    }
+    .center-img {
+        width: 170px;
+    }
+    .copyright-text {
+        display: none;
+    }
+    .footer-section .widget-2 {
+        margin-top: 30px;
+    }
+    footer .footer-link ul li a:hover:before {
+        visibility: visible;
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .new_startup_img img {
+        width: 450px !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {}
